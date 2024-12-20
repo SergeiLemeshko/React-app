@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  height: 60px;
+  background-color: rgb(185, 192, 192);
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  width: 110px;
+  justify-content: space-between;
+}

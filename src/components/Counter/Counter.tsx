@@ -23,7 +23,7 @@ export function Counter() {
 
   return (
     <>
-      <div className={counterCount}>{counter}</div>
+      <div className={`${counterCount} counter`}>{counter}</div>
       <div className="buttons">
         <button onClick={plusCount}>+</button>
         <button onClick={minusCount}>-</button>
