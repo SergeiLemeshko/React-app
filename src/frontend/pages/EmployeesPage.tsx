@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import axios, { AxiosError } from 'axios';
-import { Loader } from '../components/Loader/Loader';
-import { IEmployee } from '../types/types';
-import { Employee } from '../components/Employee/Employee';
+import React, { useEffect, useState } from "react";
+import axios, { AxiosError } from "axios";
+import { Loader } from "../components/Loader/Loader";
+import { IEmployee } from "../types/types";
+import { Employee } from "../components/Employee/Employee";
 
 export function EmployeesPage() {
   const [employees, setEmployees] = useState<IEmployee[]>([]);
@@ -12,7 +12,7 @@ export function EmployeesPage() {
     try {
       setLoad(true);
       const response = await axios.get<IEmployee[]>(
-        'http://localhost:3001/employees?page=1&limit=10'
+        "http://localhost:3001/employees?page=1&limit=10"
       );
       setEmployees(response.data);
     } catch (e: unknown) {

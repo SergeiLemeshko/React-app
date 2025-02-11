@@ -17,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "server": "ts-node src/server.ts",
+    "server": "ts-node src/backend/server.ts",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
