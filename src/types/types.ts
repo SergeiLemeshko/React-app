@@ -1,6 +1,11 @@
-export interface IPost {
-  userId: number;
+export interface IEmployee {
   id: number;
-  title: string;
-  body: string;
+  firstName: string;
+  lastName: string;
+  middleName: string;
+  birthDate: string;
+  department: string;
+  post: string;
+  salary: number;
+  photo?: string;
 }

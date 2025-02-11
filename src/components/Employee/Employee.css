@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 
-.post {
+.employee {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px;
@@ -16,7 +16,7 @@
   word-wrap: break-word;
 }
 
-.post span {
+.employee span {
   display: block;
   margin-bottom: 8px;
 }
